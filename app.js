@@ -168,43 +168,31 @@ const morseUrls = [
 ];
 
 const event = {
-  type: 'TEST AUTOMATION',
+  type: 'SFT AUTOMATION',
   name: 'HACKATHON',
-  year: 2025,
   story:
     'You were traveling through the depths of a computer system with your data set crew (your team) for an appointment with a cpu core. All of a sudden, everything stalled as if the time has completely stopped. "WE ARE DOOMED!!!" - someone started screaming... "It is a deadly blue screen of death!". The only way to save yourself and your team is to reach the non-volatile memory in computer\'s SSD until it\'s too late.',
   corePrincipals:
-    'You have 8 challenges that are available from the left side menu. Each challenge has specific requirements that need to be reached for the task to be considered complete. The team can use any automation tools that they see as the most suitable to reach the goal. Teams are not limited to a single automation tool.',
+    'You have many challenges that are available from the left side menu. Each challenge has specific requirements that need to be reached for the task to be considered complete. The team can use any automation tools that they see as the most suitable to reach the goal. Teams are not limited to a single automation tool.',
   generalRules: [
     'Each successfully solved challenge should be captured with screen recording software. The recordings should include the command(s) that triggers the automated script and a visible browser window(s) that run the automated script.',
     'Video recordings should be sent to a respective Teams channel (#team-name). Please send the recordings as early as possible - judges will provide feedback. You will be still allowed to upload another recording of the same task repeatedly.',
     'Judges will not need your code - no public repos required. However, if any questions, a judge can join the team space with an ask to clarify some questions.',
-    'Submission deadline at 17:00.',
-    'Top teams and/or most interesting solutions will be asked (in advance) to do short demos at 17:15-18:20.',
   ],
   notes: [
-    'Teams channel "Test Automation Hackathon 2025 / General" will be used for communicating any additions or changes to the rules above.',
+    'Have fun!',
   ],
   agenda: [
-    '9:00-10:00 Registration',
-    '10:00-10:30 Intro',
-    '10:30-12:30 Coding',
+    '9:30-10:00 Welcome',
+    '10:00-10:15 Intro',
+    '10:15-12:30 Coding',
     '12:30-13:30 Lunch',
-    '13:30-17:00 Coding',
-    '17:00 Code freeze',
-    '17:00-17:15 Break',
-    '17:15-18:20 Interactive tasks and demos',
-    '18:20-18:30 Break',
-    '18:30-19:00 Results and Awards',
-    "19:00-00:00 Let's meet @Narauti",
+    '13:30-16:00 Coding',
+    '16:00-17:00 Demos',
+    '17:00 Results and Awards',
   ],
   judges: [
-    { name: 'Dominykas Poškus', email: 'dominykas.poskus@cognizant.com' },
-    { name: 'Ernestas Žėkas', email: 'ernestas.zekas@cognizant.com' },
-    { name: 'Ieva Radavičiūtė' },
-    { name: 'Jelena Černyšova', email: 'jelena.cernysova@cognizant.com' },
-    { name: 'Justas Lauzadis', email: 'justas.lauzadis@cognizant.com' },
-    { name: 'Laurynas Vilčinskas', email: 'laurynas.vilcinskas@cognizant.com' },
+    { name: 'SFT team' },
   ],
 };
 
@@ -255,7 +243,7 @@ app.get('/task/morse/static', (req, res) => {
 app.get('/event/info/shallow', (req, res) => {
   res
     .status(200)
-    .json({ name: event.name, type: event.type, year: event.year });
+    .json({ name: event.name, type: event.type });
 });
 
 app.listen(port, () => {
