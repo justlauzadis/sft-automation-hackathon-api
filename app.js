@@ -15,18 +15,18 @@ const tasks = [
   {
     slug: 'task1', // appears in the url
     shortTitle: 'Task 1', // appears in the navbar
-    title: 'Task 1 - Broken Calculator', // appears at the top of the task's page
+    title: 'Task 1 - Frogs', // appears at the top of the task's page
 
     subtitle:
-      'Inside the depths of CPU Cores. Processor is pretty busy after just getting into a Blue screen of death. Help it to calculate the queue of aritmetical problems in front of your data spaceship to get out of it.',
+      'Frogs are stuck inside the CPU after a catastrophic Blue Screen of Death! Help them leap across the lily pads of logic gates and escape the processor before time runs out.',
     description:
-      'Create an automated solution that can calculate to required numbers by using only available calculator buttons. Each level has different list of numbers and available calculator buttons.',
+      'Using your favorite automation tools, win a puzzle of Frogs.',
     rules:
-      'A total of 6 points can be scored. There are 6 levels where each completed level scores 1 point.',
+      'Proceed to any won game of Frogs to win 10 points.',
     credits: null, // insert website url inside "href" and change title "Some page"
-    url: 'https://www.mathsisfun.com/games/broken-calculator.html', // will be used to load the iframe
+    url: 'https://www.lutanho.net/play/frogs.html', // will be used to load the iframe
     alternativeUrl: null, // will be used as an alternative link
-    height: '850px', // height of the iframe
+    height: '300px', // height of the iframe
     padding: null, // add white space around the task
   },
   {
@@ -50,41 +50,27 @@ const tasks = [
     shortTitle: 'Task 3',
     title: 'Task 3 - Morse code',
     subtitle:
-      "Catch the last bus to RAM'učiai or disappear forever!! MUHAHAHAHA!",
+      'The computer hardware is sending you a sequence of signals! Can you automate the process to repeat the pattern and prove your memory is faster than RAM?',
     description:
-      'Using your favorite automation tool, create a script that translates morse code messages and prints them into console.',
+      'Repeat the melody of what Simon Says.',
     rules:
-      'A total of 14 points can be scored. Translate a simple static message (5 words per minute) to get 4 points. Parse two messages in one run from dynamic message link to get another 10 points. Online translator can only be used for debugging.',
+      'A total of 15 points can be scored. Reach the score of 15 in Simon Says game. You score as many poins as your score in the Simon Says game (with 15 being the max score).',
     credits: null,
-    outerLinks: [
-      {
-        url: 'https://morsecode.world/international/translator.html',
-        title: 'Morse code translator',
-      },
-      {
-        url: host + '/task/morse/static',
-        title: 'Static message',
-      },
-      {
-        url: host + '/task/morse/dynamic',
-        title: 'Dynamic mesage',
-      },
-    ],
+    url: 'https://weslleyaraujo.github.io/react-simon-says/',
     height: '700px',
-    showIFrame: false,
   },
   {
     slug: 'task4',
     shortTitle: 'Task 4',
-    title: 'Task 4 - Mayday Mayday!',
+    title: 'Task 4 - Math',
     subtitle:
-      "Navigate your data set bus through the memory lane on your express route from RAM to SSD. Don't forget to follow the rules!",
+      'Your hardware calculator is the only thing standing between you and a system crash! Use your math skills and automation to solve calculations and navigate through the circuits of the computer.',
     description:
-      "Create a script that controls the plane's flight with your computer's microphone input to make the plane fly the longest distance of all teams. A solution must be automated.",
+      "Using your favorite automation tool, reach the highest possible score solving math problems. Your final score should be obviously displayed to capture it.",
     rules:
-      'A total of 10 points can be scored. A Top in-game score of all teams gets 15 points, others proportionally.',
+      'A total of 10 points can be scored. First part: reaching 100 score with default options (addition only + number limit of 30) wins 5 points. Second part: team with the highest score with all 6 of the operations and number limit of 1000 wins all 10 points, other teams that achieved that - in proportion. If your team is able to achieve the second part, the first part can be skipped.',
     credits: null,
-    url: 'https://mayday-mayday-tah-25.onrender.com',
+    url: 'https://www.mathster.com/10secondsmaths/',
     alternativeUrl: null,
     height: '700px',
   },
@@ -105,16 +91,27 @@ const tasks = [
   {
     slug: 'task6',
     shortTitle: 'Task 6',
-    title: 'Task 6 - Agario',
+    title: 'Task 6 - Robot Karaoke',
     subtitle:
-      'Autobots assemble! Compete with other spacehip teams to win the last leftover spot inside the SSD.',
+      'The computer hardware is alive with the sound of robot karaoke! Program your digital singer to perform a song and show off your automation skills in a battle of silicon voices.',
     description:
-      'Create the best agario bot that will compete in a live battle between all teams at the end of the hackathon. ',
+      'Submit a song for a song contest. Pick any karaoke track as your melody, and any TTS tool as your singer.',
     rules:
-      'A total of 20 points can be scored. First, every submitted solution that can reach 150 health when playing alone gets 5 points by default. Second, your automation must have the ability to join the multiplayer game (by clicking the Start button) on a certain timestamp (planned game start). A team with most points after 3 minutes into the game will get extra points: 1st - 10 points, 2nd - 7, 3rd - 5',
+      'A total of 15 points can be scored. 5 points for a submitted song of at least 30 seconds. Additionally, 10, 7 and 5 points to be awarded for the winners of the song contest.',
     credits: '',
-    url: 'https://agario-tah-25.onrender.com',
+    url: null,
     alternativeUrl: null,
+    showIFrame: false,
+    outerLinks: [
+      {
+        url: 'https://youtube.com/',
+        title: 'Youtube',
+      },
+      {
+        url: 'https://ttsreader.com/',
+        title: 'TTS Reader',
+      },
+    ],
   },
   {
     slug: 'task7',
@@ -128,18 +125,6 @@ const tasks = [
       'Max in-game score of all teams gets 15 points, others proportionally.',
     url: 'https://web.itu.edu.tr/~msilgu/tetris/tetris.html',
     height: '500px',
-  },
-  {
-    slug: 'task8',
-    shortTitle: 'Task 8',
-    title: 'Task 8 - Presentation from the Future',
-    subtitle: 'Please, welcome to the stage - the survivors of BSOD!',
-    description: 'Submit a presentation into TAH25 competition.',
-    rules:
-      'A total of 15 points can be scored. Your automation has to do a presentation on any topic of your choice. The presentation should last between 1 and 2 minutes. It has to have separate audio (for example TTS tools) and visual parts. Submit two video recordings: the whole run from test run command till finish and the other one with only the presentation part. The presentation part video should not contain anything that would identify your team. Everything else is up to you!\n\n1st place - 10 points, 2nd - 7 points, 3rd - 5 points. All submitted presentations get 5 points by default.',
-    alternativeUrl: null,
-    height: '820px',
-    url: null,
   },
 ];
 
