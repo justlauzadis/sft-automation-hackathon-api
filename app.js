@@ -161,7 +161,7 @@ const event = {
     'You have many challenges that are available from the left side menu. Each challenge has specific requirements that need to be reached for the task to be considered complete. The team can use any automation tools that they see as the most suitable to reach the goal. Teams are not limited to a single automation tool.',
   generalRules: [
     'Each successfully solved challenge should be captured with screen recording software. The recordings should include the command(s) that triggers the automated script and a visible browser window(s) that run the automated script.',
-    'Video recordings should be sent to a respective Teams channel (#team-name). Please send the recordings as early as possible - judges will provide feedback. You will be still allowed to upload another recording of the same task repeatedly.',
+    'Video recordings should be sent to a dedicated Discord channel. Please send the recordings as early as possible - judges will provide feedback. You will be still allowed to upload another recording of the same task repeatedly.',
     'Judges will not need your code - no public repos required. However, if any questions, a judge can join the team space with an ask to clarify some questions.',
   ],
   notes: [
