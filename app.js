@@ -68,7 +68,7 @@ const tasks = [
     description:
       "Using your favorite automation tool, reach the highest possible score solving math problems. Your final score should be obviously displayed to capture it.",
     rules:
-      'A total of 10 points can be scored. First part: reaching 100 score with default options (addition only + number limit of 30) wins 5 points. Second part: team with the highest score with all 6 of the operations and number limit of 1000 wins all 10 points, other teams that achieved that - in proportion. If your team is able to achieve the second part, the first part can be skipped.',
+      'A total of 15 points can be scored. First part: reaching 100 score with default options (addition only + number limit of 30) wins 5 points. Second part: team with the highest score with all 6 of the operations and number limit of 1000 wins all 15 points, other teams that achieved that - in proportion. If your team is able to achieve the second part, the first part can be skipped.',
     credits: null,
     url: 'https://www.mathster.com/10secondsmaths/',
     alternativeUrl: null,
@@ -83,7 +83,7 @@ const tasks = [
     description:
       'Create a script that draws circles according to the game rules. Complete three challenges - draw the best circle you can, draw the worst circle you can and manage to draw a circle that scores exactly 66.6%.',
     rules:
-      'A total of 10 points can be scored. All of the solutions have to draw a valid, complete circle. There are 3 goals: 1. Get the worst possible score - 3 points, others proportionally. 2. Get the best possible score among all teams - 3 points, others proportionally. 3. Score exactly 66.6% - 4 points, others proportionally.',
+      'A total of 15 points can be scored. All of the solutions have to draw a valid, complete circle. There are 3 goals: 1. Get the worst possible score - 5 points, others proportionally. 2. Get the best possible score among all teams - 5 points, others proportionally. 3. Score exactly 66.6% - 5 points, others proportionally.',
     credits: null,
     url: 'https://neal.fun/perfect-circle/',
     showIFrame: false,
@@ -97,7 +97,7 @@ const tasks = [
     description:
       'Submit a song for a song contest. Pick any karaoke track as your melody, and any TTS tool as your singer.',
     rules:
-      'A total of 15 points can be scored. 5 points for a submitted song of at least 30 seconds. Additionally, 10, 7 and 5 points to be awarded for the winners of the song contest.',
+      'A total of 20 points can be scored. 10 points for a submitted song of at least 30 seconds. Additionally, 10, 7 and 5 points to be awarded for the winners of the song contest.',
     credits: '',
     url: null,
     alternativeUrl: null,
@@ -122,7 +122,7 @@ const tasks = [
     description:
       'Please, create a smart solution that can actually play tetris and score points.',
     rules:
-      'Max in-game score of all teams gets 15 points, others proportionally.',
+      'Max in-game score of all teams gets 20 points, others proportionally.',
     url: 'https://web.itu.edu.tr/~msilgu/tetris/tetris.html',
     height: '500px',
   },
