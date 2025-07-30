@@ -108,8 +108,8 @@ const tasks = [
         title: 'Youtube',
       },
       {
-        url: 'https://ttsreader.com/',
-        title: 'TTS Reader',
+        url: 'https://www.naturalreaders.com/online/',
+        title: 'Natural Readers',
       },
     ],
   },
