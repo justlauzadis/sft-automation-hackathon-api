@@ -48,7 +48,7 @@ const tasks = [
   {
     slug: 'task3',
     shortTitle: 'Task 3',
-    title: 'Task 3 - Morse code',
+    title: 'Task 3 - Simon Says',
     subtitle:
       'The computer hardware is sending you a sequence of signals! Can you automate the process to repeat the pattern and prove your memory is faster than RAM?',
     description:
